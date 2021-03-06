@@ -1,1 +1,1 @@
-SmalltalkCISpec {#loading : [SCIMetacelloLoadSpec {#baseline : 'GettingStartedWithPharoPedro',#directory : src',#platforms : [ #pharo ]}]}
+SmalltalkCISpec {  #loading : [    SCIMetacelloLoadSpec {      #baseline : 'GettingStartedWithPharoPedro',      #directory : 'source',      #load : [ 'CI' ],      #platforms : [  #pharo ]    }  ],  #testing : {    #coverage : {       #packages : [ 'OKR-Frontend*' ]    },    #failOnZeroTests: false  }}
